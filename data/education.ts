@@ -5,7 +5,7 @@ export const education = [
     location: 'Netrokona, BANGLADESH',
     period: '2022 - present',
     description:
-      'Focused on web technologies, data structures, and algorithms, while also covering core areas such as compiler design, operating systems, machine learning, artificial intelligence, data science, and image processing, ensuring a strong foundation in both theoretical and applied computer science.',
+      'Focused on web technologies, data structures, algorithms, compiler design, operating systems, machine learning, artificial intelligence, data science, and image processing.',
   },
   {
     degree: 'Higher Secondary Certificate',

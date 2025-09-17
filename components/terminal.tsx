@@ -195,13 +195,13 @@ export function Terminal() {
       if (!audioInitialized) {
         initializeAudio();
       }
-      if (e.key === 'Enter') {
-        playKeyboardSound('enter');
-      } else if (e.key === 'Backspace') {
-        playKeyboardSound('backspace');
-      } else if (e.key.length === 1) {
-        playKeyboardSound('keypress');
-      }
+      // if (e.key === 'Enter') {
+      //   playKeyboardSound('enter');
+      // } else if (e.key === 'Backspace') {
+      //   playKeyboardSound('backspace');
+      // } else if (e.key.length === 1) {
+      //   playKeyboardSound('keypress');
+      // }
       focusInput();
     };
 

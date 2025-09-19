@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nextjs_cli
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      # add your NEXT_PUBLIC_* envs here if needed
+      # NEXT_PUBLIC_API_URL: "https://api.example.com"
+    # restart: unless-stopped
